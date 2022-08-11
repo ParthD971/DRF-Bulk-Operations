@@ -1,0 +1,58 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="109" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E266" />
+          <option value="E731" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="snippets.models.Snippet.objects" />
+          <option value="class_based_api_views.models.Transformer.objects" />
+          <option value="class_based_api_views.models.Transformer.DoesNotExist" />
+          <option value="class_based_api_views.models.Book.objects" />
+          <option value="seri.models.Account.objects" />
+          <option value="seri.models.TestUser.objects" />
+          <option value="accounts.models.User.DoesNotExist" />
+          <option value="social_django.models.UserSocialAuth.DoesNotExist" />
+          <option value="todo.models.Todo.object" />
+          <option value="todo.models.Todo.objects" />
+          <option value="todo.models.Task.object" />
+          <option value="todo.models.Task.objects" />
+          <option value="todo.models.Task._meta" />
+          <option value="todo.models.Task._state" />
+          <option value="todo.models.Task.DoesNotExist" />
+          <option value="todo.models.Task.parent_task" />
+          <option value="todo.models.SubTask.objects" />
+          <option value="todo.models.SubTask.id" />
+          <option value="django.db.models.fields.related.ForeignKey.id" />
+          <option value="django.db.models.fields.related.OneToOneField.id" />
+          <option value="todo.models.Task.sub_tasks" />
+          <option value="todo.models.Task.id" />
+          <option value="todo.models.Todo.id" />
+          <option value="todo.models.Todo.tasks" />
+          <option value="django.db.models.fields.related.ForeignKey.sub_tasks" />
+          <option value="django.db.models.fields.related.ForeignKey.todo" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
